@@ -1,3 +1,7 @@
 Matias doracio
 Franco Di toro
 Gonzalo coronel
+
+A. Para actualizar mi repositorio al estado del repositorio original se usa "Sync Fork"
+
+B. No, solo se puede actualizar al estado del repositorio original
