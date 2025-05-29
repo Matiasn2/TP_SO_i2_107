@@ -10,3 +10,64 @@ C. No, solo se puede actualizar al estado del repositorio original
 
 D- Sí, se pierden porque se actualiza
 
+E- 
+Listado:
+1-BETA crea el repositorio llamado : “TP_SO_i2_Equipo” con readme y un archivo llamado
+ fork.txt
+
+ALFA: Franco Di toro
+BETA: Matias Doracio
+GAMMA: Gonzalo Coronel
+
+2. GAMMA hace fork, clona, modifica y pushea
+
+En GitHub:
+Hacer fork del repo de BETA a su cuenta
+
+En consola:
+git clone https://github.com/GAMMA/TP_SO_i2_107.git
+cd TP_SO_i2_107
+Editar archivo fork.txt -> agregar nombre, IP y hora
+git add .
+git commit -m "GAMMA agregó sus datos"
+git push
+
+3. ALFA hace fork, clona, modifica y pushea
+
+En GitHub:
+Hacer fork del repo de BETA a su cuenta
+
+En consola:
+git clone https://github.com/ALFA/TP_SO_i2_107.git
+cd TP_SO_i2_107
+Editar archivo fork.txt -> agregar nombre, IP y hora
+git add .
+git commit -m "ALFA agregó sus datos"
+git push
+
+4. BETA clona su repo localmente y agrega archivo nuevo
+
+git clone https://github.com/BETA/TP_SO_i2_107.git
+cd TP_SO_i2_107
+git add .
+git commit -m "BETA agregó archivo NuevoDato.txt"
+git push
+
+5. GAMMA y ALFA actualizan su fork con los cambios de BETA
+
+6. BETA crea archivo “respuesta_I2_Equipo107.txt” y agrega nombres
+
+git add .
+git commit -m "Agregados nombres al archivo de respuestas"
+git push
+
+7. Cargar respuestas a-b-c-d-e
+
+GAMMA escribe respuestas a y b,
+BETA escribe respuestas c y d,
+ALFA escribe la respuesta e (la presente),
+
+Cada uno edita respuesta_I2_Equipo107.txt, agrega sus respuestas
+git add .
+git commit -m "Agregadas respuestas a-b / c-d / e"
+git push
